@@ -1,0 +1,29 @@
+{
+    "name": "scif/propel-closuretable-behavior",
+    "description": "Closure table tree implementation for Propel2",
+    "type": "propel-behavior",
+    "license": "MIT",
+    "keywords": ["propel", "behavior", "closure table"],
+    "authors": [
+        {
+            "name": "Alexander Zhuravlev",
+            "homepage": "https://github.com/SCIF"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SCIF\\Propel\\Behavior\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "propel/propel": "~2.0@dev"
+    },
+    "extra": {
+        "name": "closure_table",
+        "class": "SCIF\\Propel\\Behavior\\ClosureTableBehavior",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
